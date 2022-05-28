@@ -917,6 +917,9 @@ h6 {
 .tokyo_tm_portfolio .portfolio_list li .inner .entry {
   position: relative;
   overflow: hidden;
+  height: 300px;
+  // width: 800px;
+  // object-fit: scale-down; 
   &:hover {
     img {
       transform: scale(1.1);

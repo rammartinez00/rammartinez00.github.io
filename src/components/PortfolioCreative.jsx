@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import { Redirect } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import SimpleReactLightbox from "simple-react-lightbox";
 import { SRLWrapper } from "simple-react-lightbox";
@@ -6,6 +7,7 @@ import ReactTooltip from "react-tooltip";
 import ModalVideo from "react-modal-video";
 import Modal from "react-modal";
 import Social from "./Social";
+import { Redirect } from "react-router-dom";
 
 const Portfolio = () => {
   // for popup video
@@ -53,13 +55,14 @@ const Portfolio = () => {
                     <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <a href="https://youtube-vtwo.herokuapp.com/">
                           <img
                             src="https://i.gyazo.com/6eea66f03d4b5abc89c85646acc94cad.gif"
                             alt="Vimeo"
                             data-tip
                             data-for="vimeo"
-                            onClick={() => setOpen2(true)}
-                          />
+                            // onClick={() => {<Redirect to="https://youtube-vtwo.herokuapp.com/" />}}
+                          /></a>
                           <ReactTooltip
                             id="vimeo"
                             place="bottom"
@@ -83,13 +86,14 @@ const Portfolio = () => {
                     >
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <a href='https://tothemoon-investment-app.herokuapp.com/'>
                           <img
                             src="https://i.gyazo.com/41fcb69d760fc3d17b19905f1346c587.gif"
                             alt="Youtube"
                             data-tip
                             data-for="youtube"
-                            onClick={() => setOpen(true)}
-                          />
+                            // onClick={() => setOpen(true)}
+                          /></a>
                           <ReactTooltip
                             id="youtube"
                             place="bottom"
@@ -106,7 +110,7 @@ const Portfolio = () => {
                       </div>
                     </li>
                     {/* END YOUTUBE */}
-                    <SRLWrapper>
+                    {/* <SRLWrapper> */}
                       <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
@@ -114,13 +118,14 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/4.jpg">
+                            {/* <a href="assets/img/portfolio/4.jpg"> */}
+                              <a href='https://hearthhopper.herokuapp.com/'>
                               <img
                                 src="https://i.gyazo.com/818d212a9598d61a266a01b8d26156b7.gif"
                                 alt="Childhood"
                                 data-tip
                                 data-for="shot"
-                              />
+                              /></a>
                               <ReactTooltip
                                 id="shot"
                                 place="bottom"
@@ -133,7 +138,7 @@ const Portfolio = () => {
                                   <span>Express</span>
                                 </div>
                               </ReactTooltip>
-                            </a>
+                            {/* </a> */}
                           </div>
                         </div>
                       </li>
@@ -145,7 +150,7 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="assets/img/portfolio/3.jpg">
+                            <a href="https://petsonalities.herokuapp.com/">
                               <img
                                 src="https://i.gyazo.com/a47056a0b73a0ac416c1178c30abf252.gif"
                                 alt="Besh Award"
@@ -169,7 +174,7 @@ const Portfolio = () => {
                         </div>
                       </li>
                       {/* END SHOT */}
-                    </SRLWrapper>
+                    {/* </SRLWrapper> */}
                     
                     {/* END DETAILS */}
                     
@@ -189,7 +194,7 @@ const Portfolio = () => {
                             alt="Vimeo"
                             data-tip
                             data-for="vimeo"
-                            onClick={() => setOpen2(true)}
+                            // onClick={() => setOpen2(true)}
                           />
                           <ReactTooltip
                             id="vimeo"
@@ -222,7 +227,7 @@ const Portfolio = () => {
                             alt="Youtube"
                             data-tip
                             data-for="youtube"
-                            onClick={() => setOpen(true)}
+                            // onClick={() => setOpen(true)}
                           />
                           <ReactTooltip
                             id="youtube"
@@ -322,7 +327,7 @@ const Portfolio = () => {
                             alt="Details"
                             data-tip
                             data-for="detail"
-                            onClick={toggleModalThree}
+                            // onClick={toggleModalThree}
                           />
 
                           <ReactTooltip
@@ -353,7 +358,7 @@ const Portfolio = () => {
                             alt="Details"
                             data-tip
                             data-for="detail2"
-                            onClick={toggleModalFour}
+                            // onClick={toggleModalFour}
                           />
 
                           <ReactTooltip
@@ -384,7 +389,7 @@ const Portfolio = () => {
       </SimpleReactLightbox>
 
       {/* all modal video and popup goes here */}
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
@@ -397,7 +402,7 @@ const Portfolio = () => {
         isOpen={isOpen2}
         videoId="100171151"
         onClose={() => setOpen2(false)}
-      />
+      /> */}
 
       {/* START MODAL FOR PORTFOLIO DETAILS */}
       <Modal
@@ -409,7 +414,7 @@ const Portfolio = () => {
         closeTimeoutMS={500}
       >
         <div className="tokyo_tm_modalbox_news portfolio_tm_modalbox">
-          <button className="close-modal" onClick={toggleModalThree}>
+          <button className="close-modal" >
             <img src="assets/img/svg/cancel.svg" alt="close icon" />
           </button>
           {/* END CLOSE ICON */}
