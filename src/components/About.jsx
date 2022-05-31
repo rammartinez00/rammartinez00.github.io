@@ -26,8 +26,8 @@ const About = () => {
           <div className="description_inner">
             <div className="left">
               <p>
-                Hello, I am full stack software engineer with a background in Healthcare Informatics. 
-                I am currently searching for a role in Software Engineering either fullstack, backend or frontend. 
+              Software Engineer with experience building full stack apps in Javascript and Python with React, Redux, Flask, Express, PostgreSQL. Transitioned from a career in 
+              Healthcare Informatics to pursue a career in Software Engineering and tech. 
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">

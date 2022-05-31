@@ -25,6 +25,9 @@ const Home = () => {
             <Social />
           </div>
           {/* END DETAILS */}
+            <p> Email: &nbsp;
+            <a href="mailto:ram.martinez007@gmail.com">ram.martinez007@gmail.com</a>
+            </p>
         </div>
         {/* END HOME CONTENT */}
       </div>

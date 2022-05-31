@@ -90,14 +90,14 @@ const HomeLight = () => {
                     />
                     <span className="menu_content">News</span>
                   </Tab> */}
-                  <Tab>
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/mail.svg"
                       alt="mail"
                     />
                     <span className="menu_content"> Contact</span>
-                  </Tab>
+                  </Tab> */}
                 </ul>
               </div>
               {/* END MENU */}
@@ -142,7 +142,7 @@ const HomeLight = () => {
                 </TabPanel> */}
                 {/* END NEWS MENU TAB CONTENT */}
 
-                <TabPanel>
+                {/* <TabPanel>
                   <div
                     data-aos="fade-right"
                     data-aos-duration="1200"
@@ -150,7 +150,7 @@ const HomeLight = () => {
                   >
                     <Contact />
                   </div>
-                </TabPanel>
+                </TabPanel> */}
                 {/* END CONTACT MENU TAB CONTENT */}
               </div>
             </div>
