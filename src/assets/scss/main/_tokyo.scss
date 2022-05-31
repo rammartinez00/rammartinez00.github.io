@@ -897,10 +897,10 @@ h6 {
   list-style-type: none;
 }
 .tokyo_tm_portfolio .portfolio_list li {
-  margin: 0px 0px 50px 0px;
+  margin: 0px 0px 10px 0px;
   float: left;
   width: 50%;
-  padding-left: 50px;
+  padding: 10px;
   @media (max-width: 576px) {
     margin: 0px 0px 30px 0px;
   }
@@ -913,11 +913,16 @@ h6 {
   overflow: hidden;
   position: relative;
 }
+
+.preview-gif {
+  height: 100px;
+
+}
 .tokyo_tm_portfolio .portfolio_list li .inner a,
 .tokyo_tm_portfolio .portfolio_list li .inner .entry {
   position: relative;
   overflow: hidden;
-  height: 300px;
+  height: 200px;
   // width: 800px;
   // object-fit: scale-down; 
   &:hover {
@@ -928,7 +933,7 @@ h6 {
 }
 .tokyo_tm_portfolio .portfolio_list li .inner img {
   width: 100%;
-  height: 415px;
+  height: 200px;
   object-fit: cover;
   cursor: pointer;
   transition: 0.5s;

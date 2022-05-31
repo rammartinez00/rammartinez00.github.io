@@ -45,8 +45,8 @@ const Portfolio = () => {
                 <Tab>All</Tab>
                 <Tab>Flask</Tab>
                 <Tab>Express</Tab>
-                <Tab>Photography</Tab>
-                <Tab>Details</Tab>
+                {/* <Tab>Photography</Tab>
+                <Tab>Details</Tab> */}
               </TabList>
               {/* END TABLIST */}
               <div className="list_wrapper">
@@ -56,9 +56,10 @@ const Portfolio = () => {
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
                           <a href="https://youtube-vtwo.herokuapp.com/">
-                          <img
+                          <img 
+                            className='preview-gif'
                             src="https://i.gyazo.com/6eea66f03d4b5abc89c85646acc94cad.gif"
-                            alt="Vimeo"
+                            // alt="Vimeo"
                             data-tip
                             data-for="vimeo"
                             // onClick={() => {<Redirect to="https://youtube-vtwo.herokuapp.com/" />}}
@@ -71,7 +72,7 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Youtube</h5>
+                              <h5>Youtube vtwo</h5>
                               <span>Flask</span>
                             </div>
                           </ReactTooltip>
@@ -186,16 +187,18 @@ const Portfolio = () => {
 
                 <TabPanel>
                   <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
+                  <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
-                            src="assets/img/portfolio/5.jpg"
-                            alt="Vimeo"
+                          <a href="https://youtube-vtwo.herokuapp.com/">
+                          <img 
+                            className='preview-gif'
+                            src="https://i.gyazo.com/6eea66f03d4b5abc89c85646acc94cad.gif"
+                            // alt="Vimeo"
                             data-tip
                             data-for="vimeo"
-                            // onClick={() => setOpen2(true)}
-                          />
+                            // onClick={() => {<Redirect to="https://youtube-vtwo.herokuapp.com/" />}}
+                          /></a>
                           <ReactTooltip
                             id="vimeo"
                             place="bottom"
@@ -204,8 +207,39 @@ const Portfolio = () => {
                             className="tooltip-wrapper"
                           >
                             <div>
-                              <h5>Teresa Butler</h5>
-                              <span>Vimeo</span>
+                              <h5>Youtube vtwo</h5>
+                              <span>Flask</span>
+                            </div>
+                          </ReactTooltip>
+                        </div>
+                      </div>
+                    </li>
+                    {/* END VIMEO */}
+                    <li
+                      data-aos="fade-right"
+                      data-aos-duration="1200"
+                      data-aos-delay="100"
+                    >
+                      <div className="inner">
+                        <div className="entry tokyo_tm_portfolio_animation_wrap">
+                          <a href='https://tothemoon-investment-app.herokuapp.com/'>
+                          <img
+                            src="https://i.gyazo.com/41fcb69d760fc3d17b19905f1346c587.gif"
+                            alt="Youtube"
+                            data-tip
+                            data-for="youtube"
+                            // onClick={() => setOpen(true)}
+                          /></a>
+                          <ReactTooltip
+                            id="youtube"
+                            place="bottom"
+                            type="light"
+                            effect="float"
+                            className="tooltip-wrapper"
+                          >
+                            <div>
+                              <h5>To The Moon</h5>
+                              <span>Flask</span>
                             </div>
                           </ReactTooltip>
                         </div>
@@ -219,38 +253,75 @@ const Portfolio = () => {
 
                 <TabPanel>
                   <ul className="portfolio_list">
-                    <li data-aos="fade-right" data-aos-duration="1200">
-                      <div className="inner">
-                        <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <img
-                            src="assets/img/portfolio/2.jpg"
-                            alt="Youtube"
-                            data-tip
-                            data-for="youtube"
-                            // onClick={() => setOpen(true)}
-                          />
-                          <ReactTooltip
-                            id="youtube"
-                            place="bottom"
-                            type="light"
-                            effect="float"
-                            className="tooltip-wrapper"
-                          >
-                            <div>
-                              <h5>Ashely Flores</h5>
-                              <span>Youtube</span>
-                            </div>
-                          </ReactTooltip>
+                  <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="200"
+                      >
+                        <div className="inner">
+                          <div className="entry tokyo_tm_portfolio_animation_wrap">
+                            {/* <a href="assets/img/portfolio/4.jpg"> */}
+                              <a href='https://hearthhopper.herokuapp.com/'>
+                              <img
+                                src="https://i.gyazo.com/818d212a9598d61a266a01b8d26156b7.gif"
+                                alt="Childhood"
+                                data-tip
+                                data-for="shot"
+                              /></a>
+                              <ReactTooltip
+                                id="shot"
+                                place="bottom"
+                                type="light"
+                                effect="float"
+                                className="tooltip-wrapper"
+                              >
+                                <div>
+                                  <h5>Hearth Hopper</h5>
+                                  <span>Express</span>
+                                </div>
+                              </ReactTooltip>
+                            {/* </a> */}
+                          </div>
                         </div>
-                      </div>
-                    </li>
+                      </li>
+                      {/* END SHOT */}
+                      <li
+                        data-aos="fade-right"
+                        data-aos-duration="1200"
+                        data-aos-delay="300"
+                      >
+                        <div className="inner">
+                          <div className="entry tokyo_tm_portfolio_animation_wrap">
+                            <a href="https://petsonalities.herokuapp.com/">
+                              <img
+                                src="https://i.gyazo.com/a47056a0b73a0ac416c1178c30abf252.gif"
+                                alt="Besh Award"
+                                data-tip
+                                data-for="shot2"
+                              />
+                            </a>
+                            <ReactTooltip
+                              id="shot2"
+                              place="bottom"
+                              type="light"
+                              effect="float"
+                              className="tooltip-wrapper"
+                            >
+                              <div>
+                                <h5>Petsonalities</h5>
+                                <span>Express</span>
+                              </div>
+                            </ReactTooltip>
+                          </div>
+                        </div>
+                      </li>
                     {/* END YOUTUBE */}
                   </ul>
                   {/* END PORTFOLIO LIST */}
                 </TabPanel>
                 {/* END YOUTUBE VIDEO */}
 
-                <TabPanel>
+                {/* <TabPanel>
                   <ul className="portfolio_list">
                     <SRLWrapper>
                       <li data-aos="fade-right" data-aos-duration="1200">
@@ -279,7 +350,6 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END SHOT */}
                       <li
                         data-aos="fade-right"
                         data-aos-duration="1200"
@@ -310,12 +380,9 @@ const Portfolio = () => {
                           </div>
                         </div>
                       </li>
-                      {/* END SHOT */}
                     </SRLWrapper>
                   </ul>
-                  {/* END PORTFOLIO LIST */}
                 </TabPanel>
-                {/* END PHOTOGRAHY */}
 
                 <TabPanel>
                   <ul className="portfolio_list">
@@ -345,7 +412,6 @@ const Portfolio = () => {
                         </div>
                       </div>
                     </li>
-                    {/* END DETAILS */}
                     <li
                       data-aos="fade-right"
                       data-aos-duration="1200"
@@ -376,13 +442,9 @@ const Portfolio = () => {
                         </div>
                       </div>
                     </li>
-                    {/* END DETAILS */}
                   </ul>
-                  {/* END DETAILS GALLERY */}
-                </TabPanel>
-                {/* END CREATIVE PORTFOLIO GALLERY */}
+                </TabPanel> */}
               </div>
-              {/* END LIST WRAPPER */}
             </Tabs>
           </div>
         </div>

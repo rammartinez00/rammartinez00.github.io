@@ -23,11 +23,11 @@ const Home = () => {
             </p>
             {/* END JOB */}
             <Social />
-          </div>
-          {/* END DETAILS */}
             <p> Email: &nbsp;
             <a href="mailto:ram.martinez007@gmail.com">ram.martinez007@gmail.com</a>
             </p>
+          </div>
+          {/* END DETAILS */}
         </div>
         {/* END HOME CONTENT */}
       </div>
