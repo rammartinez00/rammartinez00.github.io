@@ -19,7 +19,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Rami Martinez</h3>
             <p className="job">
-              Full Stack Software Engineer willing to locate anywhere in the United States
+              I am Rami Martinez, a full stack developer with background in healthcare informatics.
             </p>
             {/* END JOB */}
             <Social />

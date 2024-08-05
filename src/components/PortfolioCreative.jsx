@@ -55,7 +55,7 @@ const Portfolio = () => {
                     <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <a href="https://youtube-vtwo.herokuapp.com/">
+                          {/* <a href="https://youtube-vtwo.herokuapp.com/"> */}
                           <img 
                             className='preview-gif'
                             src="https://i.gyazo.com/6eea66f03d4b5abc89c85646acc94cad.gif"
@@ -63,7 +63,8 @@ const Portfolio = () => {
                             data-tip
                             data-for="vimeo"
                             // onClick={() => {<Redirect to="https://youtube-vtwo.herokuapp.com/" />}}
-                          /></a>
+                          />
+                          {/* </a> */}
                           <ReactTooltip
                             id="vimeo"
                             place="bottom"
@@ -87,14 +88,15 @@ const Portfolio = () => {
                     >
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <a href='https://tothemoon-investment-app.herokuapp.com/'>
+                          {/* <a href='https://tothemoon-investment-app.herokuapp.com/'> */}
                           <img
                             src="https://i.gyazo.com/41fcb69d760fc3d17b19905f1346c587.gif"
                             alt="Youtube"
                             data-tip
                             data-for="youtube"
                             // onClick={() => setOpen(true)}
-                          /></a>
+                          />
+                          {/* </a> */}
                           <ReactTooltip
                             id="youtube"
                             place="bottom"
@@ -120,13 +122,14 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             {/* <a href="assets/img/portfolio/4.jpg"> */}
-                              <a href='https://hearthhopper.herokuapp.com/'>
+                              {/* <a href='https://hearthhopper.herokuapp.com/'> */}
                               <img
                                 src="https://i.gyazo.com/818d212a9598d61a266a01b8d26156b7.gif"
                                 alt="Childhood"
                                 data-tip
                                 data-for="shot"
-                              /></a>
+                              />
+                              {/* </a> */}
                               <ReactTooltip
                                 id="shot"
                                 place="bottom"
@@ -151,14 +154,14 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="https://petsonalities.herokuapp.com/">
+                            {/* <a href="https://petsonalities.herokuapp.com/"> */}
                               <img
                                 src="https://i.gyazo.com/a47056a0b73a0ac416c1178c30abf252.gif"
                                 alt="Besh Award"
                                 data-tip
                                 data-for="shot2"
                               />
-                            </a>
+                            {/* </a> */}
                             <ReactTooltip
                               id="shot2"
                               place="bottom"
@@ -190,7 +193,7 @@ const Portfolio = () => {
                   <li data-aos="fade-right" data-aos-duration="1200">
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <a href="https://youtube-vtwo.herokuapp.com/">
+                          {/* <a href="https://youtube-vtwo.herokuapp.com/"> */}
                           <img 
                             className='preview-gif'
                             src="https://i.gyazo.com/6eea66f03d4b5abc89c85646acc94cad.gif"
@@ -198,7 +201,8 @@ const Portfolio = () => {
                             data-tip
                             data-for="vimeo"
                             // onClick={() => {<Redirect to="https://youtube-vtwo.herokuapp.com/" />}}
-                          /></a>
+                          />
+                          {/* </a> */}
                           <ReactTooltip
                             id="vimeo"
                             place="bottom"
@@ -222,14 +226,15 @@ const Portfolio = () => {
                     >
                       <div className="inner">
                         <div className="entry tokyo_tm_portfolio_animation_wrap">
-                          <a href='https://tothemoon-investment-app.herokuapp.com/'>
+                          {/* <a href='https://tothemoon-investment-app.herokuapp.com/'> */}
                           <img
                             src="https://i.gyazo.com/41fcb69d760fc3d17b19905f1346c587.gif"
                             alt="Youtube"
                             data-tip
                             data-for="youtube"
                             // onClick={() => setOpen(true)}
-                          /></a>
+                          />
+                          {/* </a> */}
                           <ReactTooltip
                             id="youtube"
                             place="bottom"
@@ -261,13 +266,14 @@ const Portfolio = () => {
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
                             {/* <a href="assets/img/portfolio/4.jpg"> */}
-                              <a href='https://hearthhopper.herokuapp.com/'>
+                              {/* <a href='https://hearthhopper.herokuapp.com/'> */}
                               <img
                                 src="https://i.gyazo.com/818d212a9598d61a266a01b8d26156b7.gif"
                                 alt="Childhood"
                                 data-tip
                                 data-for="shot"
-                              /></a>
+                              />
+                              {/* </a> */}
                               <ReactTooltip
                                 id="shot"
                                 place="bottom"
@@ -292,14 +298,14 @@ const Portfolio = () => {
                       >
                         <div className="inner">
                           <div className="entry tokyo_tm_portfolio_animation_wrap">
-                            <a href="https://petsonalities.herokuapp.com/">
+                            {/* <a href="https://petsonalities.herokuapp.com/"> */}
                               <img
                                 src="https://i.gyazo.com/a47056a0b73a0ac416c1178c30abf252.gif"
                                 alt="Besh Award"
                                 data-tip
                                 data-for="shot2"
                               />
-                            </a>
+                            {/* </a> */}
                             <ReactTooltip
                               id="shot2"
                               place="bottom"

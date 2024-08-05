@@ -25,9 +25,9 @@ const About = () => {
           <h3 className="name">Rami Martinez Software Engineer</h3>
           <div className="description_inner">
             <div className="left">
-              <p>
-              Software Engineer with experience building full stack apps in Javascript and Python with React, Redux, Flask, Express, PostgreSQL. Transitioned from a career in 
-              Healthcare Informatics to pursue a career in Software Engineering and tech. 
+              <p>Hello, I am Rami Martinez! I am a Full Stack Software Engineer with a passion for web development. 
+                My background is in healthcare informatics where I built workflows utlizing a data driven approach, and trained staff on them. I made a decision to change careers to pursue my passions in software development
+                Over the last year I learned Javacript and Python as well as several frameworks and libraries. I also built several full stack project to develop and showcase my skills. I love coding and building things and I am always looking to learn new things.
               </p>
               <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
